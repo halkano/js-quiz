@@ -10,36 +10,36 @@ To start using this project use the following commands:
 * `cd js-quiz`
 * `atom .`
 * `code . `(this is if Visual Studio Code is your preferred text editor)
-##Behavior Driven Development
+## Behavior Driven Development
 * The program should return an alert when none of the radio buttons has been checked:
 
-      **Input Example**: no checked answer
+     **Input Example**: no checked answer
 
-      **Output Example**: Please answer question(number specified according to the current question not answered) to proceed!
+     **Output Example**: Please answer question(number specified according to the current question not answered) to proceed!
 
     If it's the last question:
 
-      **Input Example**: no checked answer
+     **Input Example**: no checked answer
 
-      **Output Example**: Please answer question(number specified according to the current question not answered) to submit answers!
+     **Output Example**: Please answer question(number specified according to the current question not answered) to submit answers!
 
 * The program should return this when the input is a wrong answer is checked:
 
-      **Input Example**: wrong answer
+     **Input Example**: wrong answer
 
-      **Output Example**: input value = 0
+     **Output Example**: input value = 0
 
 * The program should return this when the correct answer is checked:
 
-      **Input Example**: right answer
+     **Input Example**: right answer
 
-      **Output Example**: input value = 10
+     **Output Example**: input value = 10
 
 * The program should return the Submit Answers button is clicked when all questions are answered:
 
-      **Input Example**: Click on Submit Answers
+     **Input Example**: Click on Submit Answers
 
-      **Output Example**: You have scored (the number of points the user has attained) .
+     **Output Example**: You have scored (the number of points the user has attained) .
 
 ## Link to Live Website
 http://maryanngitonga.github.io/js-quiz/
